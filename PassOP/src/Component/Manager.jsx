@@ -29,7 +29,7 @@ const Manager = () => {
 
     const handleClick = (id) => {
         setShowPasswordId(id)
-        setClick(click)
+        setClick(!click)
         if (click) {
             passwordRef.current.type = "text"
         }
